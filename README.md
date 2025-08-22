@@ -82,5 +82,5 @@ These snippets show how the script safely interacts with React-controlled inputs
 ## Demo
 ![Automation Demo][demo]
 
-[demo]: hubspot-browser-campaign/demo.gif
+[demo]: hubspot-browser-campaign/demo.mp4
 
