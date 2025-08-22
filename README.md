@@ -49,7 +49,7 @@ async function typeSlow(el, text, delay = 100) {
 }
 ```
 ## Waiting for manual confirmation:
-```
+```javascript
 console.log("Check it manually, then press Enter to move on...");
 await new Promise(resolve => {
   const handler = (e) => {
