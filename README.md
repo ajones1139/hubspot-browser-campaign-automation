@@ -80,4 +80,7 @@ These snippets show how the script safely interacts with React-controlled inputs
 - Structuring scripts to pause and resume allows for safe human verification
 
 ## Demo
-![Automation Demo](demo.gif)
+![Automation Demo][demo]
+
+[demo]: hubspot-browser-campaign/demo.gif
+
