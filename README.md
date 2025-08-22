@@ -1,13 +1,13 @@
 # HubSpot Campaign Automation Case Study
 
 ## Summary
-This project demonstrates a **lightweight JavaScript automation** run directly in the **browser DevTools console** to recreate a HubSpot campaign after normalizing a spreadsheet of 750+ contacts. The workflow reduces several hours of repetitive work into a fraction of the time, showcasing browser scripting, DOM automation, and workflow optimization.
+This project demonstrates a **lightweight JavaScript automation** run directly in the **browser DevTools console** to recreate a HubSpot campaign after normalizing a spreadsheet of 750+ contacts. The workflow reduces several hours of repetitive work into a fraction of the time, showcasing browser scripting, DOM automation, and workflow optimization. It was written as a solution to a business professional/comrade that had a time-senstive task rebuilding a campaign through Hubspot's platform without readding individuals from the previously ran campaign.
 
 ## Background / Problem
 Manually re-adding 750+ contacts to a HubSpot campaign is time-consuming and prone to errors. The goal of this project was to **automate the process**, saving time while maintaining accuracy.
 
 ## Solution
-I built a **browser-based JavaScript automation** by analyzing HubSpot’s HTML structure. [Selector](dom_selection.png) 
+I built a **browser-based JavaScript automation** by analyzing HubSpot’s HTML structure: ![Selector](dom_selection.png) 
 The script performs the following:
 
 - **Import and parse CSV exports** from HubSpot
@@ -15,7 +15,7 @@ The script performs the following:
 - **Pause for manual confirmation** (checkbox selection)
 - **Resume with the Enter key** to continue processing the next contact
 
-To identify the correct fields and buttons, I **scraped the necessary selectors by inspecting the HubSpot page**, ensuring the script interacted with the correct DOM elements. This runs entirely in the **DevTools console**, requiring no additional setup.
+To identify the correct fields and buttons, I **scraped the necessary selectors by inspecting the HubSpot page**, ensuring the script interacted with the correct DOM elements. This runs entirely in the **DevTools console**, requiring no additional setup. This was great practice for my evolving and expanding practical approach to web-related solutions utilizing the language of the web, JavaScript.
 
 ---
 
@@ -81,7 +81,5 @@ These snippets show how the script safely interacts with React-controlled inputs
 - Structuring scripts to pause and resume allows for safe human verification
 
 ## Demo
-![Automation Demo][demo]
-
-[demo]: hubspot-browser-campaign/demo.mp4
+![Automation](hubspot.gif)
 
