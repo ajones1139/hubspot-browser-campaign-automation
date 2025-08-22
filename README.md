@@ -1,5 +1,8 @@
 # HubSpot Campaign Automation Case Study
+## Description
+Created a minimal JavaScript browser automation tool to streamline the time-consuming task of recreating a HubSpot campaign with over 750 contacts for a business analyst. By importing a CSV of all necessary individuals and selecting reliable DOM elements from HubSpot’s interface, I automated the process of searching for and selecting each contact to add to the new campaign.
 
+This solution demonstrates my proficiency in web automation, data handling, workflow optimization, and JavaScript. It reduced campaign setup time by more than 50% compared to manual execution, while proactively filtering out duplicates.
 ## Summary
 This project demonstrates a **lightweight JavaScript automation** run directly in the **browser DevTools console** to recreate a HubSpot campaign after normalizing a spreadsheet of 750+ contacts. The workflow reduces several hours of repetitive work into a fraction of the time, showcasing browser scripting, DOM automation, and workflow optimization. It was written as a solution to a business professional/comrade that had a time-senstive task rebuilding a campaign through Hubspot's platform without readding individuals from the previously ran campaign.
 
