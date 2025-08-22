@@ -7,7 +7,8 @@ This project demonstrates a **lightweight JavaScript automation** run directly i
 Manually re-adding 750+ contacts to a HubSpot campaign is time-consuming and prone to errors. The goal of this project was to **automate the process**, saving time while maintaining accuracy.
 
 ## Solution
-I built a **browser-based JavaScript automation** by analyzing HubSpot’s HTML structure. The script performs the following:
+I built a **browser-based JavaScript automation** by analyzing HubSpot’s HTML structure. [Selector](dom_selection.png) 
+The script performs the following:
 
 - **Import and parse CSV exports** from HubSpot
 - **Automatically populate** the search field with each contact’s name
